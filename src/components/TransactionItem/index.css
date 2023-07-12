@@ -1,0 +1,28 @@
+.table-raw {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  list-style-type: none;
+  padding: 15px;
+}
+
+.table-column-cell {
+  font-size: 15px;
+  font-weight: 200;
+  color: cbd5e1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 30%;
+}
+
+.delete-button {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+.delete-icon {
+  height: 20px;
+}

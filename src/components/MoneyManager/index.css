@@ -1,0 +1,162 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.money-manager-card {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 20vh;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .money-manager-card {
+    text-align: start;
+    padding-left: 30px;
+  }
+}
+
+.username {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0px;
+}
+
+.welcome-text {
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 500;
+  color: #475569;
+}
+
+.money-manager-text {
+  color: #0b69ff;
+}
+
+.form-history-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-history-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-history-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 40%;
+    margin-right: 20px;
+  }
+}
+
+.transaction-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+}
+
+.label-text {
+  color: #7e858e;
+  font-weight: 500;
+  font-family: roboto;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 15px;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 20px;
+  padding-top: 40px;
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-container {
+    width: 60%;
+    margin-top: 0px;
+  }
+}
+
+.history-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.history-table {
+  padding-left: 0px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.table-header {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  list-style-type: none;
+  padding: 15px;
+}
+
+.table-header-cell {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 30%;
+}
