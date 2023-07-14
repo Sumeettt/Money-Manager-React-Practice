@@ -4,6 +4,18 @@
   padding: 30px;
   min-height: 100vh;
 }
+@media screen and (min-width: 768px) {
+  .app-container {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-card {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
 
 .money-manager-card {
   border-radius: 20px;

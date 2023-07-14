@@ -57,6 +57,12 @@ class MoneyManager extends Component {
     // Parsing the amount to a number
     const parsedAmount = parseInt(amount)
 
+    // Finding activeOption to get displayText
+    const activeOption = transactionTypeOptions.find(
+      eachOption => eachOption.optionId === type,
+    )
+    const {displayText} = activeOption
+
     // If alphabets entered in the amount input
     if (!Number.isInteger(parsedAmount)) {
       this.setState({
@@ -85,11 +91,6 @@ class MoneyManager extends Component {
       })
       return
     }
-    // Finding activeOption to get displayText
-    const activeOption = transactionTypeOptions.find(
-      eachOption => eachOption.optionId === type,
-    )
-    const {displayText} = activeOption
 
     const newHistory = {
       id: v4(),
